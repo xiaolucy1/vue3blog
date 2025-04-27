@@ -1,14 +1,15 @@
-<script setup lang="ts">
-import MainPage from './components/MainPage.vue'
+<script setup>
+
 </script>
 
 <template>
   <div class="blog-container">
-    <MainPage />
+    <RouterView />
   </div>
 </template>
 
 <style scoped>
 .blog-container {
+  /* Add styling for blog container here */
 }
 </style>
